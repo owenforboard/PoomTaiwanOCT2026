@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taiwan Trip Timeline App</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f3f4f6;
+  color:#111827;
+}
+
+header{
+  background:#111827;
+  color:white;
+  padding:20px;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+.day-section{
+  margin-bottom:40px;
+}
+
+.day-title{
+  background:#1f2937;
+  color:white;
+  padding:16px;
+  border-radius:12px;
+  font-size:24px;
+  margin-bottom:20px;
+}
+
+.timeline{
+  border-left:4px solid #2563eb;
+  margin-left:20px;
+  padding-left:20px;
+}
+
+.timeline-item{
+  position:relative;
+  margin-bottom:24px;
+}
+
+.timeline-dot{
+  width:18px;
+  height:18px;
+  background:#2563eb;
+  border-radius:50%;
+  position:absolute;
+  left:-31px;
+  top:8px;
+}
+
+.card{
+  background:white;
+  border-radius:16px;
+  padding:18px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.time{
+  font-size:18px;
+  font-weight:bold;
+  color:#2563eb;
+}
+
+.place{
+  font-size:24px;
+  margin:10px 0;
+}
+
+.tag{
+  display:inline-block;
+  background:#e5e7eb;
+  padding:6px 10px;
+  border-radius:999px;
+  margin-right:8px;
+  margin-bottom:8px;
+  font-size:13px;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:10px;
+  margin-top:14px;
+}
+
+.gallery img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+iframe{
+  width:100%;
+  height:300px;
+  border:none;
+  border-radius:12px;
+  margin-top:14px;
+}
+
+.maps-btn{
+  display:inline-block;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  padding:10px 14px;
+  border-radius:8px;
+  margin-top:12px;
+}
+
+#map{
+  height:500px;
+  border-radius:16px;
+  margin-bottom:40px;
+}
+
+.modal{
+  display:none;
+  position:fixed;
+  z-index:9999;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+  justify-content:center;
+  align-items:center;
+}
+
+.modal img{
+  max-width:90%;
+  max-height:90%;
+}
+
+.close{
+  position:absolute;
+  top:20px;
+  right:30px;
+  color:white;
+  font-size:40px;
+  cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🇹🇼 Taiwan Trip Interactive Timeline</h1>
+<p>10–13 Oct 2026</p>
+</header>
+
+<div class="container">
+
+<div id="map"></div>
+
+<div id="app"></div>
+
+</div>
+
+<div class="modal" id="modal">
+<span class="close" onclick="closeModal()">&times;</span>
+<img id="modalImg">
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+
+async function loadTrip(){
+
+  const res = await fetch('trip.json');
+  const data = await res.json();
+
+  const app = document.getElementById('app');
+
+  const map = L.map('map').setView([23.8,121],7);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  data.days.forEach(day => {
+
+    const section = document.createElement('div');
+    section.className = 'day-section';
+
+    section.innerHTML = `
+      <div class="day-title">
+        ${day.day} — ${day.title}
+      </div>
+
+      <div class="timeline"></div>
+    `;
+
+    const timeline = section.querySelector('.timeline');
+
+    day.schedule.forEach(item => {
+
+      L.marker([item.lat,item.lng])
+        .addTo(map)
+        .bindPopup(`<b>${item.place}</b><br>${item.time}`);
+
+      const images = item.images.map(img =>
+        `<img src="${img}" onclick="openModal('${img}')">`
+      ).join('');
+
+      const div = document.createElement('div');
+      div.className = 'timeline-item';
+
+      div.innerHTML = `
+        <div class="timeline-dot"></div>
+
+        <div class="card">
+
+          <div class="time">${item.time}</div>
+
+          <div class="place">${item.place}</div>
+
+          <div class="tag">🚶 ${item.walking}</div>
+          <div class="tag">🚻 ${item.restroom}</div>
+          <div class="tag">⏱ ${item.duration}</div>
+
+          <p>${item.description}</p>
+
+          <p><strong>🌤 Weather:</strong> ${item.weather}</p>
+
+          <a class="maps-btn" href="${item.googleMaps}" target="_blank">
+            Open Google Maps
+          </a>
+
+          <iframe
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps?q=${item.lat},${item.lng}&z=15&output=embed">
+          </iframe>
+
+          <div class="gallery">
+            ${images}
+          </div>
+
+        </div>
+      `;
+
+      timeline.appendChild(div);
+
+    });
+
+    app.appendChild(section);
+
+  });
+
+}
+
+function openModal(src){
+  document.getElementById('modal').style.display='flex';
+  document.getElementById('modalImg').src=src;
+}
+
+function closeModal(){
+  document.getElementById('modal').style.display='none';
+}
+
+loadTrip();
+
+</script>
+
+</body>
+</html>

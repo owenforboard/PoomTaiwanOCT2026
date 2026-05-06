@@ -1,0 +1,108 @@
+
+{
+  "days": [
+    {
+      "day": "Day 1 • 10 Oct 2026",
+      "title": "Bangkok → Taoyuan → Changhua → Alishan",
+      "schedule": [
+        {
+          "time": "05:30",
+          "place": "Suvarnabhumi Airport Gate 4 Row H",
+          "duration": "1 hr",
+          "walking": "Very Easy",
+          "restroom": "Available",
+          "description": "Recommended parking area near Thai Airways check-in.",
+          "weather": "Bangkok 28-33°C",
+          "googleMaps": "https://maps.google.com/?q=Suvarnabhumi+Airport",
+          "lat": 13.6900,
+          "lng": 100.7501,
+          "images": [
+            "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+          ]
+        },
+        {
+          "time": "13:05",
+          "place": "Taoyuan Airport Terminal 1",
+          "duration": "1 hr",
+          "walking": "Easy",
+          "restroom": "Large restroom",
+          "description": "Arrival and immigration.",
+          "weather": "23-27°C",
+          "googleMaps": "https://maps.google.com/?q=Taoyuan+Airport",
+          "lat": 25.0797,
+          "lng": 121.2342,
+          "images": [
+            "https://images.unsplash.com/photo-1529074963764-98f45c47344b"
+          ]
+        },
+        {
+          "time": "18:00",
+          "place": "Alishan Hotel",
+          "duration": "Overnight",
+          "walking": "Minimal",
+          "restroom": "Hotel facilities",
+          "description": "พักผ่อนก่อนเที่ยวอาหลีซาน",
+          "weather": "15-19°C",
+          "googleMaps": "https://maps.google.com/?q=Alishan+Hotel",
+          "lat": 23.5100,
+          "lng": 120.8050,
+          "images": [
+            "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+          ]
+        }
+      ]
+    },
+
+    {
+      "day": "Day 2 • 11 Oct 2026",
+      "title": "Alishan Railway + Fenqihu + Changhua",
+      "schedule": [
+        {
+          "time": "09:00",
+          "place": "Alishan Forest Railway",
+          "duration": "2 hrs",
+          "walking": "300-500m",
+          "restroom": "Station available",
+          "description": "Ride scenic forest railway with minimal walking.",
+          "weather": "15-20°C",
+          "googleMaps": "https://maps.google.com/?q=Alishan+Train+Station",
+          "lat": 23.5107,
+          "lng": 120.8014,
+          "images": [
+            "https://images.unsplash.com/photo-1473448912268-2022ce9509d8"
+          ]
+        },
+        {
+          "time": "12:30",
+          "place": "Fenqihu Old Street",
+          "duration": "2 hrs",
+          "walking": "Easy",
+          "restroom": "Public restroom",
+          "description": "Historic railway town and bento lunch.",
+          "weather": "18-22°C",
+          "googleMaps": "https://maps.google.com/?q=Fenqihu+Old+Street",
+          "lat": 23.5070,
+          "lng": 120.6948,
+          "images": [
+            "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
+          ]
+        },
+        {
+          "time": "18:00",
+          "place": "十二段鍋物堂 彰化店",
+          "duration": "1.5 hrs",
+          "walking": "Very Easy",
+          "restroom": "Restaurant",
+          "description": "Dinner hotpot in Changhua.",
+          "weather": "23-27°C",
+          "googleMaps": "https://maps.google.com/?q=十二段鍋物堂+彰化店",
+          "lat": 24.0686,
+          "lng": 120.5420,
+          "images": [
+            "https://images.unsplash.com/photo-1544025162-d76694265947"
+          ]
+        }
+      ]
+    }
+  ]
+}
