@@ -1,0 +1,275 @@
+{
+  "days": [
+    {
+      "title": "Day 1 • 10 Oct 2026",
+      "subtitle": "Bangkok → Taoyuan → Changhua → Alishan",
+      "weather": "☁️ 18–26°C",
+      "events": [
+        {
+          "time": "05:50–08:25",
+          "title": "Suvarnabhumi Airport",
+          "category": "Airport",
+          "description": "จอดรถที่ประตู 4 แถว H และเตรียม check-in",
+          "duration": "ประมาณ 2 ชม. 30 นาที",
+          "transport": "Flight",
+          "maps": "https://maps.google.com/?q=Suvarnabhumi+Airport"
+        },
+        {
+          "time": "08:25–13:05",
+          "title": "TG632 Bangkok → Taoyuan",
+          "category": "Flight",
+          "description": "เที่ยวบินตรงสู่ไต้หวัน",
+          "duration": "3 ชม. 40 นาที",
+          "transport": "Aircraft",
+          "maps": "https://maps.google.com/?q=Taoyuan+Airport"
+        },
+        {
+          "time": "13:05–14:05",
+          "title": "Immigration at Taoyuan Airport",
+          "category": "Arrival",
+          "description": "ผ่านด่านตรวจคนเข้าเมือง และพบคนขับรถ",
+          "duration": "1 ชั่วโมง",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Taoyuan+Airport"
+        },
+        {
+          "time": "14:05–16:00",
+          "title": "Drive to Changhua",
+          "category": "Road Trip",
+          "description": "เดินทางด้วยรถพร้อมคนขับไปจางฮว่า",
+          "duration": "2 ชั่วโมง",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Changhua"
+        },
+        {
+          "time": "16:00–17:00",
+          "title": "Dinner near Home",
+          "category": "Dinner",
+          "description": "รับประทานอาหารเย็น",
+          "duration": "1 ชั่วโมง",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Changhua"
+        },
+        {
+          "time": "17:00–19:40",
+          "title": "Drive to Alishan — Chinshan Hotel",
+          "category": "Mountain Route",
+          "description": "เดินทางขึ้นอาหลีซาน",
+          "duration": "2 ชั่วโมง 40 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Chinshan+Hotel+Alishan"
+        }
+      ]
+    },
+    {
+      "title": "Day 2 • 11 Oct 2026",
+      "subtitle": "Alishan Railway → Fenqihu → Changhua",
+      "weather": "🌫️ 14–18°C",
+      "events": [
+        {
+          "time": "07:00–08:00",
+          "title": "Breakfast",
+          "category": "Breakfast",
+          "description": "อาหารเช้าที่โรงแรม",
+          "duration": "1 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Alishan"
+        },
+        {
+          "time": "08:00–11:30",
+          "title": "Alishan Forest Railway",
+          "category": "Railway",
+          "description": "นั่งรถไฟอาหลีซานชมวิว",
+          "duration": "3 ชั่วโมง 30 นาที",
+          "transport": "Railway",
+          "maps": "https://maps.google.com/?q=Alishan+Forest+Railway"
+        },
+        {
+          "time": "11:30–12:30",
+          "title": "Lunch at Fenqihu",
+          "category": "Lunch",
+          "description": "ทาน Railway Bento",
+          "duration": "1 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Fenqihu"
+        },
+        {
+          "time": "12:30–15:30",
+          "title": "Fenqihu Old Street",
+          "category": "Old Street",
+          "description": "เดินเล่นและพักคาเฟ่",
+          "duration": "3 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Fenqihu+Old+Street"
+        },
+        {
+          "time": "15:30–17:30",
+          "title": "Drive back to Changhua",
+          "category": "Road Trip",
+          "description": "เดินทางกลับจางฮว่า",
+          "duration": "2 ชั่วโมง",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Changhua"
+        },
+        {
+          "time": "17:30–18:30",
+          "title": "Dinner at 十二段鍋物堂 彰化店",
+          "category": "Dinner",
+          "description": "ร้านหม้อไฟ",
+          "duration": "1 ชั่วโมง",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=十二段鍋物堂+彰化店"
+        },
+        {
+          "time": "18:30–18:40",
+          "title": "Check-in Forte Hotel Changhua",
+          "category": "Hotel",
+          "description": "เข้าพักโรงแรม",
+          "duration": "10 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Forte+Hotel+Changhua"
+        }
+      ]
+    },
+    {
+      "title": "Day 3 • 12 Oct 2026",
+      "subtitle": "Shifen Waterfall → Jiufen",
+      "weather": "🌦️ 20–24°C",
+      "events": [
+        {
+          "time": "07:00–08:00",
+          "title": "Breakfast",
+          "category": "Breakfast",
+          "description": "อาหารเช้าที่โรงแรม",
+          "duration": "1 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Changhua"
+        },
+        {
+          "time": "08:00–10:00",
+          "title": "Drive to Shifen Waterfall",
+          "category": "Road Trip",
+          "description": "เดินทางไปน้ำตกสือเฟิ่น",
+          "duration": "2 ชั่วโมง",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Shifen+Waterfall"
+        },
+        {
+          "time": "10:00–12:00",
+          "title": "Shifen Waterfall",
+          "category": "Nature",
+          "description": "เที่ยวชมน้ำตกสิบเฟิ่น",
+          "duration": "2 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Shifen+Waterfall"
+        },
+        {
+          "time": "12:00–12:40",
+          "title": "Drive to Jiufen",
+          "category": "Road Trip",
+          "description": "เดินทางต่อไปจิ่วเฟิ่น",
+          "duration": "40 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Jiufen"
+        },
+        {
+          "time": "12:40–16:10",
+          "title": "Jiufen Old Street",
+          "category": "Old Street",
+          "description": "เดินเล่น คาเฟ่ ร้านชา และของฝาก",
+          "duration": "3 ชั่วโมง 30 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Jiufen+Old+Street"
+        },
+        {
+          "time": "16:10–17:00",
+          "title": "Check-in Midtown Richardson Ximending",
+          "category": "Hotel",
+          "description": "เข้าพักโรงแรม Midtown Richardson Ximending",
+          "duration": "50 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Midtown+Richardson+Ximending"
+        }
+      ]
+    },
+    {
+      "title": "Day 4 • 13 Oct 2026",
+      "subtitle": "Taipei → Taoyuan → Bangkok",
+      "weather": "☀️ 23–28°C",
+      "events": [
+        {
+          "time": "07:00–08:00",
+          "title": "Breakfast",
+          "category": "Breakfast",
+          "description": "อาหารเช้าที่โรงแรม",
+          "duration": "1 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Ximending"
+        },
+        {
+          "time": "08:00–08:30",
+          "title": "Check-out",
+          "category": "Hotel",
+          "description": "เช็คเอาต์จากโรงแรม",
+          "duration": "30 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Ximending"
+        },
+        {
+          "time": "08:30–08:50",
+          "title": "Travel to National Dr. Sun Yat-Sen Memorial Hall",
+          "category": "Road Trip",
+          "description": "เดินทางไปอนุสรณ์สถานซุนยัตเซ็น",
+          "duration": "20 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Sun+Yat+Sen+Memorial+Hall"
+        },
+        {
+          "time": "08:50–09:30",
+          "title": "National Dr. Sun Yat-Sen Memorial Hall",
+          "category": "Landmark",
+          "description": "เที่ยวชมอนุสรณ์สถานและวิว Taipei 101",
+          "duration": "40 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Sun+Yat+Sen+Memorial+Hall"
+        },
+        {
+          "time": "09:30–09:50",
+          "title": "Travel to Dadaocheng",
+          "category": "Road Trip",
+          "description": "เดินทางไปย่านต้าต้าเฉิง",
+          "duration": "20 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Dadaocheng"
+        },
+        {
+          "time": "09:50–10:20",
+          "title": "Dadaocheng",
+          "category": "Old Town",
+          "description": "เดินเล่น คาเฟ่ และซื้อของฝาก",
+          "duration": "30 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Dadaocheng"
+        },
+        {
+          "time": "10:20–11:00",
+          "title": "Travel to Taoyuan Airport Terminal 1",
+          "category": "Airport Transfer",
+          "description": "เดินทางไปสนามบินเถาหยวน",
+          "duration": "40 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Taoyuan+Airport+Terminal+1"
+        },
+        {
+          "time": "14:05–16:50",
+          "title": "TG633 Taoyuan → Bangkok",
+          "category": "Flight",
+          "description": "เดินทางกลับกรุงเทพฯ",
+          "duration": "3 ชั่วโมง 45 นาที",
+          "transport": "Aircraft",
+          "maps": "https://maps.google.com/?q=Suvarnabhumi+Airport"
+        }
+      ]
+    }
+  ]
+}
