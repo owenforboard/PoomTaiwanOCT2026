@@ -1,0 +1,112 @@
+{
+  "days": [
+    {
+      "title": "Day 1 • 10 Oct 2026",
+      "subtitle": "Bangkok → Taoyuan → Changhua → Alishan",
+      "weather": "☁️ 18–26°C",
+      "events": [
+        {
+          "time": "05:50–08:25",
+          "title": "Suvarnabhumi Airport",
+          "category": "Airport",
+          "description": "จอดรถที่ประตู 4 แถว H และเตรียม check‑in",
+          "duration": "ประมาณ 2 ชม. 30 นาที",
+          "transport": "Flight",
+          "maps": "https://maps.google.com/?q=Suvarnabhumi+Airport",
+          "image": "https://picsum.photos/seed/airport/800/500"
+        },
+        {
+          "time": "17:00–19:40",
+          "title": "Drive to Alishan",
+          "category": "Mountain Route",
+          "description": "เดินทางขึ้นอาหลีซาน",
+          "duration": "2 ชั่วโมง 40 นาที",
+          "transport": "Private Driver",
+          "maps": "https://maps.google.com/?q=Alishan",
+          "image": "https://picsum.photos/seed/alishan/800/500"
+        }
+      ]
+    },
+    {
+      "title": "Day 2 • 11 Oct 2026",
+      "subtitle": "Alishan Railway → Fenqihu → Changhua",
+      "weather": "🌫️ 14–18°C",
+      "events": [
+        {
+          "time": "08:00–11:30",
+          "title": "Alishan Forest Railway",
+          "category": "Railway",
+          "description": "นั่งรถไฟอาหลีซานชมวิว",
+          "duration": "3 ชั่วโมง 30 นาที",
+          "transport": "Railway",
+          "maps": "https://maps.google.com/?q=Alishan+Forest+Railway",
+          "image": "https://picsum.photos/seed/train/800/500"
+        },
+        {
+          "time": "12:30–15:30",
+          "title": "Fenqihu Old Street",
+          "category": "Old Street",
+          "description": "เดินเล่นและพักคาเฟ่",
+          "duration": "3 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Fenqihu+Old+Street",
+          "image": "https://picsum.photos/seed/fenqihu/800/500"
+        }
+      ]
+    },
+    {
+      "title": "Day 3 • 12 Oct 2026",
+      "subtitle": "Shifen Waterfall → Jiufen",
+      "weather": "🌦️ 20–24°C",
+      "events": [
+        {
+          "time": "10:00–12:00",
+          "title": "Shifen Waterfall",
+          "category": "Nature",
+          "description": "เที่ยวชมน้ำตกสิบเฟิ่น",
+          "duration": "2 ชั่วโมง",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Shifen+Waterfall",
+          "image": "https://picsum.photos/seed/waterfall/800/500"
+        },
+        {
+          "time": "12:40–16:10",
+          "title": "Jiufen Old Street",
+          "category": "Old Street",
+          "description": "เดินเล่น คาเฟ่ ร้านชา และของฝาก",
+          "duration": "3 ชั่วโมง 30 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Jiufen+Old+Street",
+          "image": "https://picsum.photos/seed/jiufen/800/500"
+        }
+      ]
+    },
+    {
+      "title": "Day 4 • 13 Oct 2026",
+      "subtitle": "Taipei → Airport",
+      "weather": "☀️ 23–28°C",
+      "events": [
+        {
+          "time": "08:50–09:30",
+          "title": "Sun Yat-Sen Memorial Hall",
+          "category": "Landmark",
+          "description": "เที่ยวชมอนุสรณ์สถาน",
+          "duration": "40 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Sun+Yat+Sen+Memorial+Hall",
+          "image": "https://picsum.photos/seed/taipei/800/500"
+        },
+        {
+          "time": "09:50–10:20",
+          "title": "Dadaocheng",
+          "category": "Old Town",
+          "description": "เดินเล่นและซื้อของฝาก",
+          "duration": "30 นาที",
+          "transport": "Walking",
+          "maps": "https://maps.google.com/?q=Dadaocheng",
+          "image": "https://picsum.photos/seed/dadaocheng/800/500"
+        }
+      ]
+    }
+  ]
+}
