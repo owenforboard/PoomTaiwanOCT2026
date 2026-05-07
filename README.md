@@ -1,1 +1,0 @@
-Full 4-day itinerary with weather + Google Maps buttons restored.
