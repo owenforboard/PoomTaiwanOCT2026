@@ -1,0 +1,166 @@
+{
+  "days": [
+    {
+      "title": "Day 1 • 10 Oct 2026",
+      "subtitle": "Bangkok → Taoyuan → Changhua → Alishan",
+      "events": [
+        {
+          "time": "05:30",
+          "category": "Departure",
+          "title": "Leave Home",
+          "description": "ออกเดินทางไปสนามบินสุวรรณภูมิ",
+          "walking": "Minimal",
+          "restroom": "Available",
+          "breaks": "Coffee nearby",
+          "duration": "40 mins",
+          "transport": "Private car",
+          "notes": "เผื่อเวลา check-in และผู้สูงอายุ",
+          "maps": "https://maps.google.com/?q=Suvarnabhumi+Airport",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+        },
+        {
+          "time": "05:50",
+          "category": "Airport Parking",
+          "title": "Gate 4 Row H Parking",
+          "description": "จอดรถแถว H ประตู 4 ใกล้ Thai Airways",
+          "walking": "Easy",
+          "restroom": "Airport restroom",
+          "breaks": "Cafe available",
+          "duration": "15 mins",
+          "transport": "Walking",
+          "notes": "จุดเดินน้อย เหมาะผู้สูงอายุ",
+          "maps": "https://maps.google.com/?q=Suvarnabhumi+Airport",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3"
+        },
+        {
+          "time": "06:10",
+          "category": "Check-in",
+          "title": "Thai Airways Check-in",
+          "description": "โหลดกระเป๋าและรับ boarding pass",
+          "walking": "Moderate",
+          "restroom": "Nearby",
+          "breaks": "Airport cafe",
+          "duration": "25 mins",
+          "transport": "Walking",
+          "notes": "แนะนำใช้ wheelchair assistance หากจำเป็น",
+          "maps": "https://maps.google.com/?q=Suvarnabhumi+Airport",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1529074963764-98f45c47344b"
+        },
+        {
+          "time": "08:25",
+          "category": "Flight",
+          "title": "TG632 Bangkok → Taoyuan",
+          "description": "เที่ยวบินตรงไปไต้หวัน",
+          "walking": "Airport walking",
+          "restroom": "Onboard",
+          "breaks": "Meal onboard",
+          "duration": "3h 40m",
+          "transport": "Aircraft",
+          "notes": "เลือก aisle seat สำหรับผู้สูงอายุ",
+          "maps": "https://maps.google.com/?q=Taoyuan+Airport",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+        },
+        {
+          "time": "13:40",
+          "category": "Arrival",
+          "title": "Meet Driver at Taoyuan Airport",
+          "description": "คนขับรถรอรับที่สนามบิน ไม่ต้องเช่ารถเอง",
+          "walking": "Easy",
+          "restroom": "Airport restroom",
+          "breaks": "Coffee nearby",
+          "duration": "20 mins",
+          "transport": "Private driver",
+          "notes": "Private driver throughout entire trip",
+          "maps": "https://maps.google.com/?q=Taoyuan+Airport",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+        },
+        {
+          "time": "15:30",
+          "category": "Rest Stop",
+          "title": "Taichung Service Area",
+          "description": "พักห้องน้ำ ยืดเส้น และกาแฟ",
+          "walking": "Easy",
+          "restroom": "Large restroom",
+          "breaks": "Starbucks",
+          "duration": "30 mins",
+          "transport": "Private driver",
+          "notes": "จุดพัก recommended สำหรับผู้สูงอายุ",
+          "maps": "https://maps.google.com/?q=Taichung+Service+Area",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+        },
+        {
+          "time": "19:40",
+          "category": "Hotel",
+          "title": "Check-in Alishan Hotel",
+          "description": "เข้าพักและพักผ่อน",
+          "walking": "Minimal",
+          "restroom": "Hotel",
+          "breaks": "Tea available",
+          "duration": "Overnight",
+          "transport": "Private driver",
+          "notes": "อากาศเย็น ควรเตรียมเสื้อกันหนาว",
+          "maps": "https://maps.google.com/?q=Alishan+Hotel",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+        }
+      ]
+    },
+    {
+      "title": "Day 2 • 11 Oct 2026",
+      "subtitle": "Alishan Railway + Fenqihu + Changhua",
+      "events": [
+        {
+          "time": "08:00",
+          "category": "Breakfast",
+          "title": "Breakfast at Hotel",
+          "description": "อาหารเช้าที่โรงแรม",
+          "walking": "Minimal",
+          "restroom": "Hotel",
+          "breaks": "Coffee",
+          "duration": "1 hr",
+          "transport": "Walking",
+          "notes": "เตรียมตัวก่อนขึ้นรถไฟ",
+          "maps": "https://maps.google.com/?q=Alishan+Hotel",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+        },
+        {
+          "time": "09:00",
+          "category": "Railway",
+          "title": "Alishan Forest Railway",
+          "description": "นั่งรถไฟสาย Zhaoping",
+          "walking": "300-500m",
+          "restroom": "Station",
+          "breaks": "Cafe nearby",
+          "duration": "2 hrs",
+          "transport": "Railway",
+          "notes": "Senior-friendly route",
+          "maps": "https://maps.google.com/?q=Alishan+Train+Station",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8"
+        },
+        {
+          "time": "12:30",
+          "category": "Lunch",
+          "title": "Fenqihu Old Street",
+          "description": "ทาน Railway Bento และเดินเล่น",
+          "walking": "Easy",
+          "restroom": "Public restroom",
+          "breaks": "Tea house",
+          "duration": "2 hrs",
+          "transport": "Private driver",
+          "notes": "เดินสบาย มีร้านของฝาก",
+          "maps": "https://maps.google.com/?q=Fenqihu+Old+Street",
+          "navigate": "https://www.google.com/maps/dir/",
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
+        }
+      ]
+    }
+  ]
+}
